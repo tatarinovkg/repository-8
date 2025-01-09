@@ -179,7 +179,7 @@
     let userId = tg.initDataUnsafe.user.id;
 
     // Выполняем запрос с userId сразу после загрузки страницы
-    fetch('https://louse-precious-sincerely.ngrok-free.app/api/search/class/data', {
+    fetch('https://tatarinovkg.cloudpub.ru/api/search/class/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -238,7 +238,7 @@
         });
 
     function makeAdmin(userId) {
-        fetch('https://louse-precious-sincerely.ngrok-free.app/api/new/admin', {
+        fetch('https://tatarinovkg.cloudpub.ru/api/new/admin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -264,7 +264,7 @@
     }
 
     function removeAdmin(userId) {
-        fetch('https://louse-precious-sincerely.ngrok-free.app/api/remove/admin', {
+        fetch('https://tatarinovkg.cloudpub.ru/api/remove/admin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
